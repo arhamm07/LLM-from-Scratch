@@ -1,0 +1,40 @@
+# Model files and directories - ignore everything in model folder
+model/
+model/*
+**/model/
+**/model/*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large model files
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.pkl
+*.joblib
