@@ -123,7 +123,3 @@ The `model` directory stores saved model checkpoints and artifacts:
 pip install torch numpy jupyter
 jupyter notebook
 ```
-
-## Acknowledgements
-
-This project structure is inspired by educational resources on building LLMs, aiming to demystify the "black box" of modern AI by implementing every line of code from scratch.
